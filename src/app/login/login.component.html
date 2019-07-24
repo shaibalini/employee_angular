@@ -1,0 +1,12 @@
+<div class="mainDiv">
+  <h1>Login</h1>
+  <form [formGroup]="employeeLogin" (ngSubmit)="onSubmit()">
+
+Name :
+<input  formControlName="name"><br><br>
+Password :
+<input type="password" formControlName="password"><br><br>
+
+<button type="submit">Submit</button>
+</form>
+</div>
